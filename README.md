@@ -41,3 +41,22 @@
 1.  在 GitHub 那个仓库页面，点击 `Add file` -> `Upload files`。
 2.  把修改后的新文件再次拖进去，点击 Commit。
 3.  **Vercel 会自动检测到变化，并自动帮你重新发布**（完全自动，不需要你去 Vercel 操作）。
+
+
+
+如果没办法打开vercel给的网站，下面的办法也可以实现：
+这很可能是因为 vercel.app 这个域名在某些地区或网络下被屏蔽了 （国内网络访问 Vercel 有时候不稳定）。
+
+既然你已经把代码上传到了 GitHub，我们直接启用 GitHub Pages ，这个在国内通常更稳定一些。
+
+### 启用 GitHub Pages (最稳方案)
+1. 回到你的 GitHub 仓库页面 。
+2. 点击最上方的 Settings (设置) 选项卡（在 Code, Issues 那一排的右边）。
+3. 在左侧菜单栏中，向下滚动找到 Pages (有时候在 "Code and automation" 分类下)。
+4. 在右侧的 Build and deployment -> Branch 下面：
+   - 点击下拉菜单 (通常显示 None )，选择 main 。
+   - 点击右边的 Save 按钮。
+5. 等待 1-2 分钟 。
+6. 刷新这个页面，你会看到最上方出现了一行字： <blockquote/>
+点击那个以 github.io 结尾的链接，那个通常手机都能打开！试试看。
+   
